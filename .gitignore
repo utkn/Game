@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.gitignore
+.idea/
+assets/.DS_Store
+assets/chars/.DS_Store
+assets/maps/.DS_Store
+assets/maps/level1/.DS_Store
+include/.DS_Store

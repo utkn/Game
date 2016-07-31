@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="20" tilewidth="16" tileheight="16" nextobjectid="4">
+ <tileset firstgid="1" name="Tileset" tilewidth="16" tileheight="16" tilecount="2" columns="2">
+  <image source="Tileset.png" width="32" height="16"/>
+ </tileset>
+ <layer name="Background" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw8EJAAAMA6Ej+w/dMfpRcNVUVVXV1wcr0wfR
+  </data>
+ </layer>
+ <layer name="Foreground" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzKENAAAIwDD4/2ksoDEkbTK7CAAAAJjy+NW7tv9f2gopYAA0
+  </data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="1" name="collision" x="0" y="304" width="736" height="16"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object id="3" name="spawn" x="48" y="176" width="16" height="16"/>
+ </objectgroup>
+</map>
