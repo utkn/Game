@@ -6,7 +6,6 @@
 #include <Systems/RenderSystem.h>
 #include <Scenes/SceneManager.h>
 #include <Scenes/MapScene.h>
-#include <Misc/Factory.h>
 
 ecs::EntityHandle createSprite(ecs::Manager& manager, TextureRegion& region, int posX, int posY) {
     ecs::EntityHandle handle = manager.newEntity();
